@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.FlowPane?>
+
+<FlowPane alignment="TOP_CENTER" columnHalignment="CENTER" hgap="20.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" orientation="VERTICAL" prefHeight="322.0" prefWidth="291.0" rowValignment="TOP" vgap="20.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.r605.r605.AccueilController">
+   <children>
+      <ComboBox fx:id="searchRegion" prefHeight="25.0" prefWidth="185.0" promptText="Choisir une région" />
+      <ComboBox fx:id="searchDep" prefHeight="25.0" prefWidth="185.0" promptText="Choisir Département" />
+      <ComboBox fx:id="searhVille" prefHeight="25.0" prefWidth="185.0" promptText="Choisir Ville" />
+      <ComboBox fx:id="searchFiltre" prefWidth="185.0" promptText="Choisir Filtre" />
+      <Button mnemonicParsing="false" prefHeight="42.0" prefWidth="144.0" text="Générer" onAction="#onGenerer"/>
+      <Label prefHeight="27.0" prefWidth="152.0" text="Les données datent de 2024" />
+   </children>
+   <padding>
+      <Insets top="30.0" />
+   </padding>
+</FlowPane>
